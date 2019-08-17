@@ -1,0 +1,24 @@
+.slick-slider img {
+  height: 200px;
+  width: 360px;
+}
+
+.slick-slider {
+  padding: 20px 10px 0px 10px;
+  width: 100%;
+  border: 10px solid maroon;
+}
+
+div {
+  background: maroon;
+}
+
+@media only screen and (max-width: 320px) {
+  .slick-slider img {
+    height: 200px;
+    width: 100px;
+  }
+}
+
+
+

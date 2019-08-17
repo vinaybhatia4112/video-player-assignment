@@ -1,0 +1,13 @@
+<div class="border">
+  <ngx-slick-carousel class="carousel"
+                      #slickModal="slick-carousel" [config]="slideConfig"
+                      (init)="slickInit($event)">
+
+    <div ngxSlickItem *ngFor="let slide of slides, let i=index" class="slide">
+      <img src="{{ slide.img }}" (click)="onVideoSelect(i)" alt="" width="100%">
+    </div>
+
+  </ngx-slick-carousel>
+</div>
+
+
