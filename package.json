@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --prod",
+    "heroku labs": "enable user-env-compile -a video-player-assignment",
+    "heroku config": "set NODE_ENV=production"
   },
   "private": true,
   "dependencies": {
